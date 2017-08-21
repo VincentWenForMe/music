@@ -1,0 +1,14 @@
+div {
+  background: #2c3e50;
+}
+
+.header {
+  display: flex;
+  .logo {
+    flex: 0 0 2.5rem;
+    background: #e66a0d;
+  }
+  .menu {
+    flex: 1;
+  }
+}

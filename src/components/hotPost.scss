@@ -1,0 +1,44 @@
+.hotPost {
+  .hot-banner {
+    img {
+      width: 100%;
+    }
+  }
+  .hot-list {
+    padding: 0 10px;
+    li {
+      display: flex;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+      .item-1 {
+        flex: 1;
+      }
+      .item-2 {
+        flex: 2.5;
+        margin-left: 10px;
+        h1 {
+          font-size: 18px;
+        }
+        .intro {
+          padding: 10px 0;
+          font-size: 16px;
+        }
+        .on-show {
+          font-size: 14px;
+          color: rgba(0,0,0,0.52);
+        }
+      }
+      .item-3 {
+        flex: 0.5;
+        text-align: right;
+        color: #f78360;
+        display: inline-block;
+        line-height: 50px;
+        font-size: 18px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

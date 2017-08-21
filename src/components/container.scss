@@ -1,0 +1,20 @@
+.container {
+  .sort-list {
+    display: flex;
+    .item {
+      flex: 1;
+      text-align: center;
+      font-size: 16px;
+      line-height: 32px;
+      span {
+        display: inline-block;
+      }
+      .router-link-exact-active {
+        color: #e66a0d;
+        span{
+          border-bottom: 2px solid #e66a0d;
+        }
+      }
+    }
+  }
+}
